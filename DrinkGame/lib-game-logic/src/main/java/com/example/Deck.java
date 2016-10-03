@@ -11,12 +11,7 @@ public class Deck {
     private Stack<Card> deck;
 
     public Deck() {
-
-        this.deck = new Stack<>();
-        makeDeck();
-    }
-
-    private void makeDeck() {
+        deck = new Stack<>();
         for (Suit suit : Suit.values()) {
             for (Value value : Value.values()) {
                 deck.add(new Card(suit, value));
@@ -24,7 +19,6 @@ public class Deck {
         }
         Collections.shuffle(deck);
     }
-
     public boolean isEmpty() {
         return deck.isEmpty();
     }
