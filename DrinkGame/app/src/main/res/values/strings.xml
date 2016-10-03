@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DrinkGame</string>
+    <string name="start_game">Start Game</string>
+    <string name="kings_count">Kings Count</string>
+    <string name="cards_count">Cards Count</string>
+    <string name="infinite">Infinite</string>
+    <string name="normal">Normal</string>
+    <string name="replay">Replay</string>
+</resources>
